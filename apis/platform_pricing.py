@@ -416,7 +416,7 @@ def main():
         platforms.append(platform)
 
         # We limit the resultset on this end since we can only here check
-        # if the dataset actually contains all the data we need and therefor
+        # if the dataset actually contains all the data we need and therefore
         # can't filter on the API level.
         if opts.limit is not None and counter + 1 >= opts.limit:
             break
